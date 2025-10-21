@@ -1,0 +1,76 @@
+/* ||   */
+
+#mods .page-title {
+    background-image: url(../images/frogRockerPink.png); 
+    background-size: 30%; }
+
+#mainBar {
+    background-color: indigo; }
+
+#mainBar h1 {
+    color: white; }
+
+
+#mods #mainBar {
+    padding: 0.5em 1.5em;
+}
+
+#mods #navigation-menu {
+    background-color: indigo;
+}
+
+     #mods nav {
+        padding: 0 0.5em 0.5em 0.5em;
+     }
+
+article #headTwo {
+    font-size: 1.5em;
+}
+
+/* || FOR LANDSCAPE SCREENS */
+
+@media screen and (orientation: landscape) {
+    
+    body {
+        margin: 0 7%; }
+    
+    main {
+        padding-top: 1em; 
+        display: grid; 
+        grid-template-columns: 3fr 1fr; 
+        gap: 2em; }
+
+    .cards {
+        padding-top: 0.5em; 
+        display: grid; 
+        grid-template-columns: 1fr;
+        gap: 1em; } 
+    
+}
+
+
+/* || FOR PORTRAIT SCREENS */
+
+@media screen and (orientation: portrait) {
+
+    h1 {
+        font-size: 100%; }
+
+    body { 
+        display: grid; 
+        grid-template-columns: 1fr;
+        font-size: 90%;
+        margin: 0 3%; }
+
+    main { 
+        margin: 0 auto;
+        padding-top: 1em; }
+
+.cards {
+        display: grid; 
+        grid-template-columns: 1fr;
+        gap: 1em; }
+
+   header {
+    font-size: 90%; }
+}

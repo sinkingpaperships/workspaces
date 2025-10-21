@@ -1,0 +1,162 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    box-sizing: border-box; }
+
+body {
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: lavender; }
+
+    
+/* || Header */
+
+header { 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    line-height: 1.25;
+    background-color: indigo;
+    color: #fff;
+    border: 5px solid indigo;}
+
+header .page-title { 
+    background-size: 40%;
+    background-position: right; 
+    background-repeat: no-repeat;
+    font-size: 300%; 
+    font-weight: bold; 
+    padding: 2% 10%; } /*was 2% 7%
+
+            /* || INDEX STYLE */
+            #index .page-title {
+                background-image: url(images/frogStare.png); }
+
+            /* || NEW-ABOUT STYLE */
+
+            #about .page-title {
+                    background-image: url(images/frogRockerPink.png); 
+                    background-size: 35%; }
+
+            /* || NEWSLETTER STYLE */
+            #newsLetter .page-title {
+                background-image: url(images/frogStare.png); }
+           
+h1 {
+    color: indigo; 
+    font-size: 2em; } 
+
+
+/* || Navigation Menu */
+
+.container { 
+    padding-top: 0.5em; 
+    display: flex; 
+    gap: 0.625%; }
+
+#navigation-menu a {
+    flex: 1;
+    text-decoration: none; 
+    outline-color: transparent;
+    text-align: center; 
+    line-height: 3; } 
+
+#navigation-menu a:link,
+#navigation-menu a:visited,
+#navigation-menu a:focus { 
+    background: palegoldenrod; 
+    color: black; }
+
+#navigation-menu a:hover {
+    background: gold; }
+
+#navigation-menu a:active {
+    background: purple;
+    color: white; }
+
+
+/* || Hyperlinks */
+
+a {
+    flex: 1;
+    text-decoration: none; 
+    outline-color: transparent;
+    text-align: center; } 
+
+    a:link,
+    a:visited,
+    a:focus { 
+        background: palegoldenrod; 
+        color: black; }
+
+    a:hover {
+        background: plum; }
+
+    a:active {
+        background-color: purple; 
+        color: white; }
+
+
+/* || Sidebar */
+
+.sidebar {
+    line-height: 1.4;
+    background-color: #333; 
+    border: 5px solid #000; 
+    padding: 0.5em 1em; 
+    color: #fff; }
+
+.sidebar img {
+    max-width: 30%; }
+
+
+
+/* || Footer */
+
+footer { /*font-family: 'Times New Roman';*/ 
+    min-width: 100%;
+    text-align: center; 
+    padding: 1em;
+    margin-top: 2em;
+    border: 1em; 
+    border-top: 5px solid indigo; } 
+
+
+/* || Card Styling */
+
+.cards {
+    list-style: none;
+    margin: 0; 
+    padding: 0; } 
+    
+    .cards a, 
+    .cards a:link, 
+    .cards a:hover, 
+    .cards a:active {
+        background-color: transparent; }
+
+.cards li { 
+    border: 5px solid indigo; 
+    background-color: indigo; } 
+
+.cards h2 { 
+    background-color: indigo; 
+    color: white; 
+    font-size: 100%; font-size-adjust: cap 10%; max-height: fit-content;
+    margin: 0; 
+    padding: 1em; } 
+    
+.cards h3 { 
+    background-color: indigo; font-size: 90%; vertical-align: text-bottom;
+    color: white; 
+    text-align: center; 
+    margin: 0; 
+    padding: 2%;} 
+
+.cards img { 
+    max-width: 99%; } 
+
+.cards .inner { 
+    background-color: lavender;
+    padding: 0.5em 1em;  }
